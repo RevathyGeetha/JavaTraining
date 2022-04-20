@@ -17,7 +17,7 @@ public class Application {
 		
 		
 		
-		double inrValue = Double.parseDouble(args[1]);
+		Double inrValue = Double.parseDouble(args[1]);
 		System.out.println(conv.inrToEuro(inrValue));
 		double salary = 32648.00;
 		int intSal =(int) salary;
